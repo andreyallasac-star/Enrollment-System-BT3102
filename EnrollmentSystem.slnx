@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/DB/" />
+  <Folder Name="/DB/PostScript/">
+    <File Path="Users_Seed.sql" />
+  </Folder>
+  <Folder Name="/DB/StoredProc/" />
+  <Folder Name="/DB/Table/">
+    <File Path="Users.sql" />
+  </Folder>
+  <Folder Name="/DB/View/" />
+  <Project Path="BusinessLogic/BusinessLogic.csproj" />
+  <Project Path="Model/Model.csproj" />
+  <Project Path="UI/UI.csproj" />
+</Solution>

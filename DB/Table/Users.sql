@@ -1,0 +1,7 @@
+CREATE TABLE Users (
+    UserId INT PRIMARY KEY IDENTITY(1,1),
+    Username NVARCHAR(50) NOT NULL UNIQUE,
+    PasswordHash NVARCHAR(255) NOT NULL,
+    Role NVARCHAR(20) NOT NULL CHECK (Role IN ('Admin','Staff')),
+    Status NVARCHAR(20) NOT NULL DEFAULT 'Active'
+);
