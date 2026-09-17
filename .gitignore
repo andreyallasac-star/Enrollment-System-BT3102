@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BusinessLogic/obj/Debug/net10.0
+/BusinessLogic/obj
+/BusinessLogic/bin/Debug/net10.0
+/.vs
+/UI/bin/Debug/net10.0-windows
+/UI/obj
+/Model/obj/Debug/net10.0
+/Model/obj
+/Model/bin/Debug/net10.0
